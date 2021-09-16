@@ -1,0 +1,1 @@
+{"version":3,"file":"set-proxy-kind.d.ts","sourceRoot":"","sources":["../src/set-proxy-kind.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,gBAAgB,EAAE,MAAM,YAAY,CAAC;AAC9C,OAAO,EAAE,iBAAiB,EAAE,MAAM,YAAY,CAAC;AAC/C,OAAO,EAAgC,eAAe,EAAE,MAAM,YAAY,CAAC;AAE3E,wBAAsB,YAAY,CAChC,QAAQ,EAAE,gBAAgB,EAC1B,YAAY,EAAE,MAAM,EACpB,IAAI,EAAE,iBAAiB,GACtB,OAAO,CAAC,eAAe,CAAC,MAAM,CAAC,CAAC,CAkBlC"}
