@@ -1,8 +1,46 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
+    "/Users/emanuel/Desktop/estudos/hardhat/contracts/factoryNFT.sol": {
+      "lastModificationDate": 1631804138606,
+      "contentHash": "b0c3fb16d79477ed1672a42cc61e2abc",
+      "sourceName": "contracts/factoryNFT.sol",
+      "solcConfig": {
+        "version": "0.8.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Counters.sol",
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.3"
+      ],
+      "artifacts": [
+        "FactoryNFT"
+      ]
+    },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
-      "lastModificationDate": 1631795601281,
+      "lastModificationDate": 1631836434666,
       "contentHash": "b7811964d33f23b2d45ed3ebb76a4548",
       "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
       "solcConfig": {
@@ -36,7 +74,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
-      "lastModificationDate": 1631795601491,
+      "lastModificationDate": 1631836453012,
       "contentHash": "94da923c22e9773af388607307182c80",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
@@ -72,7 +110,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1631795601282,
+      "lastModificationDate": 1631836449171,
       "contentHash": "a4f6dccf3f15b6844e357f737a572388",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
@@ -113,42 +151,8 @@
         "ERC721"
       ]
     },
-    "/Users/emanuel/Desktop/estudos/hardhat/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1631793724010,
-      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
-      "sourceName": "hardhat/console.sol",
-      "solcConfig": {
-        "version": "0.8.3",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.4.22 <0.9.0"
-      ],
-      "artifacts": [
-        "console"
-      ]
-    },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1631795601282,
+      "lastModificationDate": 1631836449171,
       "contentHash": "53919d6975f2c0f3dffee5e3a1064116",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
@@ -184,7 +188,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1631795601282,
+      "lastModificationDate": 1631836449171,
       "contentHash": "9a367cecca6fed80a3e975b7e6b3bd5c",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -218,7 +222,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1631795601491,
+      "lastModificationDate": 1631836453012,
       "contentHash": "8aa69ca8424167555baaaa9f607801db",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -254,7 +258,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1631795601280,
+      "lastModificationDate": 1631836434666,
       "contentHash": "c5f6c4e4df069c789e7d84b4c3011913",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
@@ -288,7 +292,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1631795601280,
+      "lastModificationDate": 1631836434666,
       "contentHash": "851485d5b925529b1a2f34a0be077891",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -322,7 +326,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1631795601281,
+      "lastModificationDate": 1631836434666,
       "contentHash": "62142442bed149f965c5ed971fae4182",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -356,7 +360,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1631795601284,
+      "lastModificationDate": 1631836449073,
       "contentHash": "a9a5319dff9088c6ffe757ea1c2a6729",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -392,7 +396,7 @@
       ]
     },
     "/Users/emanuel/Desktop/estudos/hardhat/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1631795601284,
+      "lastModificationDate": 1631836449074,
       "contentHash": "9a04322bb8f6b8f2767d8358d1d2537b",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -423,44 +427,6 @@
       ],
       "artifacts": [
         "IERC165"
-      ]
-    },
-    "/Users/emanuel/Desktop/estudos/hardhat/contracts/factoryNFT.sol": {
-      "lastModificationDate": 1631803656224,
-      "contentHash": "b0c3fb16d79477ed1672a42cc61e2abc",
-      "sourceName": "contracts/factoryNFT.sol",
-      "solcConfig": {
-        "version": "0.8.3",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/utils/Counters.sol",
-        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.3"
-      ],
-      "artifacts": [
-        "FactoryNFT"
       ]
     }
   }
